@@ -14,7 +14,6 @@ import ToTopBtn from "./components/ToTopBtn";
 import FloatingWhatsappBtn from "./components/FloatingWhatsappBtn";
 import OlderModal from "./components/OlderModal";
 
-//sss
 const App = () => {
   const dispatch = useDispatch<any>();
   const { data } = useSelector(({ products }: { products: any }) => products);
