@@ -20,7 +20,7 @@ const App = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [scroll, setScroll] = useState(0);
   const { pathname } = useLocation();
-//sa
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname])
