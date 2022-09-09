@@ -1,0 +1,166 @@
+.light-font {
+  font-weight: 200;
+}
+
+.cu-pointer {
+  cursor: pointer;
+}
+
+.cu-grab {
+  cursor: grab;
+}
+
+.cu-default {
+  cursor: default;
+}
+
+.event-none {
+  pointer-events: none;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.small {
+  font-size: 0.8rem !important;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-aligned {
+  display: flex;
+  align-items: center;
+}
+
+.select-none {
+  user-select: none;
+}
+
+.postion-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.postion-bottom {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
+.offset-top {
+  margin-top: 70px;
+}
+
+.text-cut {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.w-95 {
+  width: 95%;
+}
+
+.w-md-75 {
+  @media (min-width: 767px) {
+    width: 75% !important;
+  }
+}
+
+.w-md-auto {
+  @media (min-width: 767px) {
+    width: auto !important;
+  }
+}
+
+.back-index {
+  z-index: -1;
+}
+
+.bg-lighter {
+  background-color: #fff;
+}
+
+.smoth-transition {
+  transition: 0.2s;
+}
+
+.sacle-1 {
+  transform: scale(1);
+}
+
+.sacle-0 {
+  transform: scale(0);
+}
+
+.box-shadow-none {
+  box-shadow: none !important;
+}
+
+.over-hdden {
+  overflow: hidden;
+}
+
+// Min height
+@for $i from 1 through 150 {
+  .min-h-#{$i}vh {
+    min-height: #{$i}vh;
+  }
+}
+
+// Max width
+@for $i from 50 through 500 {
+  .max-w-#{$i} {
+    max-width: #{$i}px;
+  }
+}
+
+// Min width
+@for $i from 50 through 500 {
+  .min-w-#{$i} {
+    min-width: #{$i}px;
+  }
+}
+
+// text cut
+@for $i from 0 through 200 {
+  .text-cut-#{$i} {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: $i;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+.text-md {
+  font-size: 0.8em !important;
+}

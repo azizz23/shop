@@ -1,0 +1,100 @@
+@import "./helper.scss";
+@import "./mixins.scss";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+$main-color: #0d6efd;
+
+// now some of personalization :)
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $main-color;
+  border-radius: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(231, 231, 231);
+  border-radius: 20px;
+}
+
+::selection {
+  background-color: $main-color;
+  color: #fff;
+}
+
+// hide map ads
+.leaflet-bottom.leaflet-right {
+  display: none;
+}
+
+// to top btn
+.toTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transform: translateX(calc(100% + 30px));
+  width: 55px;
+  height: 55px;
+  padding: 10px;
+  background-color: $main-color;
+  z-index: 999999;
+  font-size: 25px;
+  font-weight: 700;
+  border-radius: 50%;
+
+  &.active {
+    animation: showbtn 0.4s forwards;
+
+    @keyframes showbtn {
+      50% {
+        transform: translateX(-80%);
+      }
+      60% {
+        transform: translateX(-30%);
+      }
+      70% {
+        transform: translateX(20px);
+      }
+      90% {
+        transform: translateX(-20px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+  }
+}
+
+.whatsapp-floating-btn {
+  background-color: #0cb53f;
+  position: fixed;
+  left: 30px;
+  bottom: 30px;
+  color: #fff;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  cursor: pointer;
+  transition: 0.6s;
+  z-index: 999;
+
+  &:hover {
+    background-color: #0da039;
+  }
+}

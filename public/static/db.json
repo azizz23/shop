@@ -1,0 +1,212 @@
+{
+  "categores": [
+    {
+      "id": 1,
+      "name": "الكل",
+      "img": "/static/categories/germany1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "خليل مأمون",
+      "img": "/static/categories/khalel.jpg"
+    },
+    {
+      "id": 4,
+      "name": "اراجيل المانية",
+      "img": "/static/categories/germany.png"
+    },
+    {
+      "id": 2,
+      "name": "اراجيل الكترونية",
+      "img": "/static/categories/123.jpg"
+    }
+    
+  ],
+  "product": [
+    {
+      "id": 5,
+      "categoreId": 2,
+      "name": "ARGUS GT KIT 160W",
+      "description": " 160W Max Power Output \n Transformable PnP Pod Tank \n Dual 18650 Battery \n Temperature Control Mode",
+      "img": "/static/products/electric/argusGT/1.jpg",
+      "price": "319",
+      "oldPrice": "379",
+      "imgs": [
+        "/static/products/electric/argusGT/1.jpg",
+        "/static/products/electric/argusGT/2.jpg",
+        "/static/products/electric/argusGT/3.jpg",
+        "/static/products/electric/argusGT/4.jpg"
+      ]
+    },
+   
+    {
+      "id": 7,
+      "categoreId": 2,
+      "name": "ARGUS PRO KIT 80W",
+      "description": "VOOPOO Argus Pro 5-80W Adjustable Power, Integrated 3000mAh Battery, PnP Atomizer System Supported ",
+      "img": "/static/products/electric/argusPRO/3.png",
+      "price": "219",
+      "oldPrice": "250",
+      "imgs": [
+        "/static/products/electric/argusPRO/3.png",
+        "/static/products/electric/argusPRO/4.png",
+        "/static/products/electric/argusPRO/2.png",
+        "/static/products/electric/argusPRO/1.png"
+      ]
+    },
+    {
+      "id": 8,
+      "categoreId": 2,
+      "name": "SMOK THALLO KIT 80W",
+      "description": " ",      
+      "img": "/static/products/electric/smokThallo/1.png",
+      "price": "199",
+      "oldPrice": "240",
+      "imgs": [
+        "/static/products/electric/smokThallo/1.png",
+        "/static/products/electric/smokThallo/2.png",
+        "/static/products/electric/smokThallo/3.png",
+        "/static/products/electric/smokThallo/4.png"
+      ]
+    },
+
+    {
+      "id": 15,
+      "categoreId": 2,
+      "name": "Flavors",
+      "description": " ",      
+      "img": "/static/products/electric/flavors/1.jpg",
+      "price": "89",
+      "oldPrice": "",
+      "imgs": [
+        "/static/products/electric/flavors/1.jpg",
+        "/static/products/electric/flavors/2.jpg",
+        "/static/products/electric/flavors/3.jpg",
+        "/static/products/electric/flavors/4.jpg"
+      ]
+    },
+    
+    {
+      "id": 1,
+      "categoreId": 3,
+      "name": "خليل مأمون دانا",
+      "description": " ",      
+      "img": "/static/products/khalel/k1/11.jpg",
+      "price": "399",
+      "oldPrice": "450",
+      "imgs": [
+        "/static/products/khalel/k1/1.jpg",
+        "/static/products/khalel/k1/4.jpg",
+        "/static/products/khalel/k1/2.jpg",
+        "/static/products/khalel/k1/3.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "categoreId": 3,
+      "name": "زلطة افنديا",
+      "description": " ",      
+      "img": "/static/products/khalel/k2/222.jpg",
+      "price": "379",
+      "oldPrice": "400",
+      "imgs": [
+        "/static/products/khalel/k2/1.jpg",
+        "/static/products/khalel/k2/2.jpg"
+      ]
+    }
+    ,
+    {
+      "id": 3,
+      "categoreId": 3,
+      "name": "برج العرب تنافيس",
+      "description": " ",      
+      "img": "/static/products/khalel/k3/33.jpg",
+      "price": "379",
+      "oldPrice": "400",
+      "imgs": [
+        "/static/products/khalel/k3/1.jpg"
+      ]
+    }
+    ,
+    {
+      "id": 4,
+      "categoreId": 3,
+      "name": "الفاخر ذهب",
+      "description": " ",      
+      "img": "/static/products/khalel/k4/44.jpg",
+      "price": "349",
+      "oldPrice": "",
+      "imgs": [
+        "/static/products/khalel/k4/1.jpg",
+        "/static/products/khalel/k4/2.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "categoreId": 3,
+      "name": "لولو ذهب",
+      "description": " ",      
+      "img": "/static/products/khalel/k5/11.jpg",
+      "price": "299",
+      "oldPrice": "",
+      "imgs": [
+        "/static/products/khalel/k5/1.jpg"
+        
+      ]
+    },
+    {
+      "id": 14,
+      "categoreId": 3,
+      "name": "الف ليلة وليلة",
+      "description": " ",      
+      "img": "/static/products/khalel/k6/11.jpg",
+      "price": "999",
+      "oldPrice": "",
+      "imgs": [
+        "/static/products/khalel/k6/1.jpg"
+        
+      ]
+    },
+    {
+      "id": 10,
+      "categoreId": 4,
+      "name": "المانية 1",
+      "description": " ",      
+      "img": "/static/products/germany/g1/1.jpg",
+      "price": "249",
+      "oldPrice": "",
+      "imgs": [
+        "/static/products/germany/g1/1.jpg",
+        "/static/products/germany/g1/2.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "categoreId": 4,
+      "name": "المانية 2",
+      "description": " ",      
+      "img": "/static/products/germany/g2/1.jpg",
+      "price": "219",
+      "oldPrice": "250",
+      "imgs": [
+        "/static/products/germany/g2/1.jpg",
+        "/static/products/germany/g2/2.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "categoreId": 4,
+      "name": "المانية 3",
+      "description": " ",      
+      "img": "/static/products/germany/g3/1.jpg",
+      "price": "189",
+      "oldPrice": "",
+      "imgs": [
+        "/static/products/germany/g3/1.jpg",
+        "/static/products/germany/g3/2.jpg"
+      ]
+    }
+
+
+  ]
+}
