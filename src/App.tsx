@@ -3,7 +3,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import { getAllProductData } from "./store/ProductSlice";
 import { useDispatch, useSelector } from "react-redux";
 
-// pages1
+// pages
 import Home from "./pages/Home";
 import Product from "./pages/Product";
 import NotFound from "./pages/NotFound";
@@ -13,6 +13,7 @@ import LoadingPage from "./components/LoadingPage";
 import ToTopBtn from "./components/ToTopBtn";
 import FloatingWhatsappBtn from "./components/FloatingWhatsappBtn";
 import OlderModal from "./components/OlderModal";
+
 
 const App = () => {
   const dispatch = useDispatch<any>();
