@@ -124,6 +124,7 @@
       "price": "379",
       "oldPrice": "400",
       "imgs": [
+        "/static/products/khalel/k3/33.jpg",
         "/static/products/khalel/k3/1.jpg"
       ]
     }
@@ -150,6 +151,7 @@
       "price": "299",
       "oldPrice": "",
       "imgs": [
+        "/static/products/khalel/k5/11.jpg",
         "/static/products/khalel/k5/1.jpg"
         
       ]
@@ -163,6 +165,7 @@
       "price": "999",
       "oldPrice": "",
       "imgs": [
+        "/static/products/khalel/k6/11.jpg",
         "/static/products/khalel/k6/1.jpg"
         
       ]
