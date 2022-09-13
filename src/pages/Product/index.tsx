@@ -91,12 +91,12 @@ const Product = ({ products }: any) => {
                   onClick={order}
                   className="btn btn-success d-flex flex-center gap-2"
                 >
-                  <i className="bi bi-whatsapp fs-5" /> order via whatsapp
+                  <i className="bi bi-whatsapp fs-5" /> Order Via Whatsapp
                 </button>
 
                 <Link to="/" className="text-decoration-none">
                   <button className="btn btn-outline-dark flex-center d-flex gap-2 fw-bold">
-                    <i className="bi bi-browser-safari fs-5" /> Browse products
+                    <i className="bi bi-browser-safari fs-5" /> Browse Products
                   </button>
                 </Link>
               </div>
