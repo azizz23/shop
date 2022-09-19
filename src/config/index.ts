@@ -4,7 +4,7 @@ type keysTypes = {
 };
 
 const keys: keysTypes = {
-  whatsapp: "+972549830452",
+  whatsapp: "+972529679607",
   instagramUrl: "",
 };
 
