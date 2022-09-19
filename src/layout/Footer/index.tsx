@@ -41,7 +41,7 @@ const Footer = () => {
         className="text-center text-light bg-dark p-3"
         // style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
-        © 2020 Copyright: Aziz-Nargila
+        © 2022 Copyright: Aziz-Nargila
       </div>
       {/* <!-- Copyright --> */}
     </footer>
