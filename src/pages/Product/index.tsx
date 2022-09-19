@@ -16,7 +16,7 @@ const Product = ({ products }: any) => {
 
   const order = () => {
     const Phonenumber = keys.whatsapp;
-    const message = `Hello, I want to order the "${product.name}" product, Give me the details`;
+    const message = `مرحبا اريد تفاصيل عن"${product.name}"`;
     const whatsappAPI = `https://wa.me/${Phonenumber}?text=${message}`;
 
     window.open(whatsappAPI, "_blanc");
