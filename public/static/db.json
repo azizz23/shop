@@ -6,6 +6,11 @@
       "img": "/static/categories/germany1.jpg"
     },
     {
+      "id": 5,
+      "name": "اراجيل ايمي",
+      "img": "https://i.postimg.cc/bNFqYk0T/Capture.png"
+    },
+    {
       "id": 3,
       "name": "خليل مأمون",
       "img": "/static/categories/khalel.jpg"
@@ -24,7 +29,7 @@
   ],
   "product": [
     {
-      "id": 5,
+      "id": 1,
       "categoreId": 2,
       "name": "ARGUS GT KIT 160W",
       "description": " 160W Max Power Output \n Transformable PnP Pod Tank \n Dual 18650 Battery \n Temperature Control Mode",
@@ -40,7 +45,7 @@
     },
    
     {
-      "id": 7,
+      "id": 2,
       "categoreId": 2,
       "name": "ARGUS PRO KIT 80W",
       "description": "VOOPOO Argus Pro 5-80W Adjustable Power, Integrated 3000mAh Battery, PnP Atomizer System Supported ",
@@ -55,7 +60,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 3,
       "categoreId": 2,
       "name": "SMOK THALLO KIT 80W",
       "description": " ",      
@@ -71,7 +76,7 @@
     },
 
     {
-      "id": 15,
+      "id": 4,
       "categoreId": 2,
       "name": "Flavors",
       "description": " ",      
@@ -85,9 +90,88 @@
         "/static/products/electric/flavors/4.jpg"
       ]
     },
-    
     {
-      "id": 1,
+      "id": 5,
+      "categoreId": 5,
+      "name": "ارجيلة ايمي 1",
+      "description": " ",      
+      "img": "https://i.postimg.cc/nh8BjbTC/image.png",
+      "price": "1590",
+      "oldPrice": "",
+      "imgs": [
+        "https://i.postimg.cc/nh8BjbTC/image.png"
+        
+      ]
+    },
+    {
+      "id": 6,
+      "categoreId": 3,
+      "name": "ارجيلة ايمي 2",
+      "description": " ارجيلة ايمي **مع شنتة** مميزة",      
+      "img": "https://i.postimg.cc/7hsX8syS/image.png",
+      "price": "350",
+      "oldPrice": "",
+      "imgs": [
+        "https://i.postimg.cc/7hsX8syS/image.png",
+        "https://i.postimg.cc/63Bh7JWd/image.png"
+        
+      ]
+    },
+    {
+      "id": 7,
+      "categoreId": 5,
+      "name": "ارجيلة ايمي 3",
+      "description": " ",      
+      "img": "https://i.postimg.cc/nht9VKcm/image.png",
+      "price": "470",
+      "oldPrice": "",
+      "imgs": [
+        "https://i.postimg.cc/nht9VKcm/image.png"
+        
+      ]
+    },
+    {
+      "id": 8,
+      "categoreId": 5,
+      "name": "ارجيلة ايمي 4",
+      "description": " ",      
+      "img": "https://i.postimg.cc/k5T2ykNN/image.png",
+      "price": "490",
+      "oldPrice": "",
+      "imgs": [
+        "https://i.postimg.cc/k5T2ykNN/image.png",
+        "https://i.postimg.cc/853s2M0j/image.png"
+        
+      ]
+    },
+    {
+      "id": 18,
+      "categoreId": 5,
+      "name": "ارجيلة ايمي 5",
+      "description": " ",      
+      "img": "https://i.postimg.cc/pTyZvNPk/image.png",
+      "price": "790",
+      "oldPrice": "",
+      "imgs": [
+        "https://i.postimg.cc/pTyZvNPk/image.png"
+        
+      ]
+    },
+    {
+      "id": 19,
+      "categoreId": 5,
+      "name": "ارجيلة ايمي 6",
+      "description": " ",      
+      "img": "https://i.postimg.cc/ncq1pGt8/image.png",
+      "price": "1150",
+      "oldPrice": "",
+      "imgs": [
+        "https://i.postimg.cc/ncq1pGt8/image.png"
+        
+      ]
+    },
+    {
+      "id": 9,
       "categoreId": 3,
       "name": "خليل مأمون دانا",
       "description": " ",      
@@ -102,7 +186,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 10,
       "categoreId": 3,
       "name": "زلطة افنديا",
       "description": " ",      
@@ -116,7 +200,7 @@
     }
     ,
     {
-      "id": 3,
+      "id": 11,
       "categoreId": 3,
       "name": "برج العرب تنافيس",
       "description": " ",      
@@ -130,7 +214,7 @@
     }
     ,
     {
-      "id": 4,
+      "id": 12,
       "categoreId": 3,
       "name": "الفاخر ذهب",
       "description": " ",      
@@ -171,7 +255,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 15,
       "categoreId": 4,
       "name": "المانية 1",
       "description": " ",      
@@ -184,7 +268,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 16,
       "categoreId": 4,
       "name": "المانية 2",
       "description": " ",      
@@ -197,7 +281,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 17,
       "categoreId": 4,
       "name": "المانية 3",
       "description": " ",      
